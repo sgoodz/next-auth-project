@@ -4,7 +4,11 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'dashboard-hero': "url('https://place-hold.it/1800x250')",
+      },
+    },
   },
   plugins: [],
 }
